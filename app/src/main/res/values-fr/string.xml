@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon Application de base</string>
+    <string name="action_settings">Configurations</string>
+    <string name="hello_world">Salut Monde !</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    <string name="download">Télécharger JSON</string>
+    <string name="downloading">En cours de téléchargement ...</string>
+</resources>

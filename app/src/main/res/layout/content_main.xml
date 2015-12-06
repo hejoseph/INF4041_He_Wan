@@ -15,5 +15,36 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/hello_world" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:id="@+id/btn_english"
+        android:onClick="translate"
+        android:nestedScrollingEnabled="true"
+        android:layout_above="@+id/btn_french"
+        android:layout_alignRight="@+id/btn_french"
+        android:layout_alignEnd="@+id/btn_french"
+        android:layout_marginBottom="39dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/french"
+        android:id="@+id/btn_french"
+        android:onClick="translate"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/download"
+        android:id="@+id/btn_donwload"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="startDownload" />
 </RelativeLayout>
