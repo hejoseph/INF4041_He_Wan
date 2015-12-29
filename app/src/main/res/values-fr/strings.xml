@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon Application de base</string>
+    <string name="action_settings">Configurations</string>
+    <string name="hello_world">Salut Monde !</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    <string name="download">Télécharger JSON</string>
+    <string name="downloading">En cours de téléchargement ...</string>
+    <string name="beer_list">Liste de Bières</string>
+    <string name="display_beer_list">Afficher Liste de Bières</string>
+    <string name="download_beer_list">Télécharger Liste de Bières</string>
+    <string name="finished_downloading">Téléchargement Terminé</string>
+    <string name="search_results">Résultat de recherches Youtube :</string>
+    <string name="json_downloaded">Fichier JSON Téléchargé</string>
+    <string name="title_activity_rvjson_file"></string>
+    <string name="view_json_file"></string>
+    <string name="beer">Bières</string>
+    <string name="beer_list_ready">Votre liste de bières est prête !</string>
+    <string name="dl_beer_finished">Téléchargement de la liste de bières terminé !</string>
+    <string name="dl_search_finished">Téléchargement des données de youtube terminé !</string>
+    <string name="loading_yt_data">Téléchargement de données à partir de Youtube ...</string>
+    <string name="title_activity_searches">Résultats des recherches</string>
+    <string name="view_beer">Cliquez pour voir la liste de bières</string>
+    <string name="view_yt_data">Cliquez pour voir la recherche</string>
+    <string name="yt_data_ready">Vos recherches sont prêtes !</string>
+    <string name="yt_searches">Recherches Youtube</string>
+</resources>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mon Application de base</string>
-    <string name="action_settings">Configurations</string>
-    <string name="hello_world">Salut Monde !</string>
-    <string name="english">Anglais</string>
-    <string name="french">Français</string>
-    <string name="download">Télécharger JSON</string>
-    <string name="downloading">En cours de téléchargement ...</string>
+
+
+    <!--<string name="download_beer_list">Télécharger Liste Bières</string>-->
+    <!--<string name="finished_downloading">Téléchargement Terminé</string>-->
+    <!--<string name="json_downloaded">Fichier JSON Téléchargé</string>-->
+    <!--<string name="view_json_file">Click here to view your json file</string>-->
+    <!--<string name="title_activity_rvjson_file">RVJsonFile</string>-->
+    <!--<string name="title_activity_searches">SearchesActivity</string>-->
+    <!--<string name="display_beer_list">Afficher Liste Bières</string>-->
+    <!--<string name="beer_list">Liste de Bières</string>-->
+    <!--<string name="search_results">Résultats de Recherches Youtube :</string>-->
+
+
 </resources>

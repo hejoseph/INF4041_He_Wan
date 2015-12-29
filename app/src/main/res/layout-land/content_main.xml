@@ -11,7 +11,29 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="org.esiea.he_wan.mybasicapp.MainActivity"
     tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/download_beer_list"
+            android:id="@+id/btn_donwload"
+            android:onClick="startDownload"
 
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/display_beer_list"
+            android:id="@+id/btn_display"
+            android:onClick="displayJson"
+             />
+
+    </LinearLayout>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,22 +58,7 @@
 
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/download_beer_list"
-        android:id="@+id/btn_donwload"
-        android:onClick="startDownload"
-        android:layout_below="@+id/btn_display"
-        android:layout_centerHorizontal="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/display_beer_list"
-        android:id="@+id/btn_display"
-        android:onClick="displayJson"
-        android:layout_centerHorizontal="true" />
 
 
 

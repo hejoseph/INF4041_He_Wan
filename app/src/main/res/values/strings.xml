@@ -1,15 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My Basic App</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello World!</string>
     <string name="english">English</string>
     <string name="french">French</string>
-    <string name="download">Download JSON</string>
-    <string name="downloading">Wait ... it\'s downloading ...</string>
-    <string name="finished_downloading">Finished downloading</string>
-    <string name="json_downloaded">JSON file downloaded</string>
-    <string name="view_json_file">Click here to view your json file</string>
-    <string name="title_activity_rvjson_file">RVJsonFile</string>
+    <string name="download_beer_list">Download Beer List</string>
+    <string name="downloading">Downloading Beer List...</string>
+    <string name="beer_list_ready">Your beer list is ready !</string>
+    <string name="view_beer">Click here to view your beer list</string>
+    <!--<string name="title_activity_rvjson_file">RVJsonFile</string>-->
+    <string name="title_activity_searches">Search Results</string>
+    <string name="display_beer_list">Display Beer List</string>
+    <string name="beer_list">Beer List</string>
+    <string name="search_results">Search Youtube Results :</string>
+    <string name="loading_yt_data">Downloading Data from Youtube ...</string>
+    <string name="dl_search_finished">Downloading Youtube Data Finished !</string>
+    <string name="dl_beer_finished">Downloading Beer List Finished !</string>
+    <string name="yt_data_ready">Your searches are ready !</string>
+    <string name="yt_searches">Youtube Searches</string>
+    <string name="view_yt_data">Click here to view your search results</string>
+    <string name="beer">Beers</string>
+    <string name="finished_downloading">Downloading finished</string>
 
 
 </resources>

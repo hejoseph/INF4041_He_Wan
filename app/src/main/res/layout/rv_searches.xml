@@ -5,15 +5,15 @@
     android:paddingTop="10dp">
 
     <ImageView
-        android:layout_width="72dp"
+        android:layout_width="144dp"
         android:layout_height="72dp"
-        android:id="@+id/biere_image" />
+        android:id="@+id/video_image" />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/rv_biere_element_name"
+        android:id="@+id/video_title"
         android:paddingLeft="10dp" />
-
 
 </LinearLayout>

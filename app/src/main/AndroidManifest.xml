@@ -28,13 +28,39 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.esiea.he_wan.sendbroadcast" />
+                <action android:name="com.esiea.he_wan.sendbroadcast.bieres" />
+                <action android:name="com.esiea.he_wan.sendbroadcast.searches" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".ProfActivity$BierUpdate"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.esiea.biers_update" />
             </intent-filter>
         </receiver>
 
+        <receiver
+            android:name=".MainActivity$BtnDisplayUpdt"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.esiea.button.update" />
+            </intent-filter>
+        </receiver>
+
+        <!--<activity-->
+            <!--android:name=".RVJsonFile"-->
+            <!--android:label="@string/title_activity_rvjson_file"-->
+            <!--android:theme="@style/AppTheme.NoActionBar" />-->
         <activity
-            android:name=".RVJsonFile"
-            android:label="@string/title_activity_rvjson_file"
+            android:name=".ProfActivity"
+            android:label="@string/beer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".SearchesActivity"
+            android:label="@string/title_activity_searches"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
